@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сравнение автомобилей Lamborghini, Voyah и Jaguar</title>
+    <style>
+        body {
+            background-color: #f5f5dc; 
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            text-align: center;
+            color: #5d3a29; 
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px; 
+        }
+        th, td {
+            border: 1px solid #5d3a29;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #c2d6c2; 
+            color: white; 
+        }
+        td {
+            background-color: #e6f9e6; 
+            color: #5d3a29; 
+        }
+        mark {
+            background-color: #ffcc00; 
+        }
+        .characteristic {
+            font-weight: bold;
+        }
+        .gallery {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin: 20px 0;
+        }
+        .gallery-item {
+            flex: 0 0 30%; 
+            text-align: center;
+            margin: 10px;
+        }
+        .gallery-item img {
+            max-width: 100%;
+            border-radius: 10px; /* Закругленные углы */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Тень для изображений */
+        }
+        .gallery-item h3 {
+            color: #5d3a29; 
+        }
+    </style>
+</head>
+<body>
+
+<h1>Сравнение автомобилей Lamborghini, Voyah и Jaguar</h1>
+
+<table>
+    <caption style="font-size: 1.5em; font-weight: bold;">Характеристики автомобилей</caption>
+    <thead>
+        <tr>
+            <th>Характеристика</th>
+            <th>Lamborghini</th>
+            <th>Voyah</th>
+            <th>Jaguar</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="characteristic">Самая дорогая модель</td>
+            <td>
+                <details>
+                    <summary>Скрыть/Показать</summary>
+                    <mark>Lamborghini Sián</mark>
+                </details>
+            </td>
+            <td>
+                <details>
+                    <summary>Скрыть/Показать</summary>
+                    <mark>Voyah Dream</mark>
+                </details>
+            </td>
+            <td>
+                <details>
+                    <summary>Скрыть/Показать</summary>
+                    <mark>Jaguar I-PACE</mark>
+                </details>
+            </td>
+        </tr>
+        <tr>
+            <td class="characteristic">Самая дешёвая модель</td>
+            <td>
+                <details>
+                    <summary>Скрыть/Показать</summary>
+                    <mark>Lamborghini Huracan</mark>
+                </details>
+            </td>
+            <td>
+                <details>
+                    <summary>Скрыть/Показать</summary>
+                    <mark>Voyah Free</mark>
+                </details>
+            </td>
+            <td>
+                <details>
+                    <summary>Скрыть/Показать</summary>
+                    <mark>Jaguar XE</mark>
+                </details>
+            </td>
+        </tr>
+        <tr>
+            <td class="characteristic">Двигатель</td>
+            <td><mark>V10</mark></td>
+            <td><mark>Электродвигатель</mark></td>
+            <td><mark>Бензиновый 4-цилиндровый</mark></td>
+        </tr>
+        <tr>
+            <td class="characteristic">Расход топлива</td>
+            <td><mark>12 л/100 км</mark></td>
+            <td><mark>0 л/100 км (электро)</mark></td>
+            <td><mark>8 л/100 км</mark></td>
+        </tr>
+        <tr>
+            <td class="characteristic">Скорость</td>
+            <td><mark>325 км/ч</mark></td>
+            <td><mark>200 км/ч</mark></td>
+            <td><mark>250 км/ч</mark></td>
+        </tr>
+        <tr>
+            <td class="characteristic">Наличие экологических сертификатов</td>
+            <td><mark>EU6</mark></td>
+            <td><mark>ECAR</mark></td>
+            <td><mark>EU6</mark></td>
+        </tr>
+        <tr>
+            <td class="characteristic">Гарантийный срок</td>
+            <td><mark>3 года</mark></td>
+            <td><mark>5 лет</mark></td>
+            <td><mark>5 лет</mark></td>
+        </tr>
+        <tr>
+            <td class="characteristic">Максимальная скорость</td>
+            <td><mark>325 км/ч</mark></td>
+            <td><mark>200 км/ч</mark></td>
+            <td><mark>250 км/ч</mark></td>
+        </tr>
+        <tr>
+            <td class="characteristic">Тип</td>
+            <td><mark>Автоматическая</mark></td>
+            <td><mark>Автоматическая</mark></td>
+            <td><mark>Автоматическая</mark></td>
+        </tr>
+        <tr>
+            <td class="characteristic">Количество передач</td>
+            <td><mark>7</mark></td>
+            <td><mark>1 (вариатор)</mark></td>
+            <td><mark>8</mark></td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td colspan="4">Источник информации: производители и обзоры автомобилей</td>
+        </tr>
+    </tfoot>
+</table>
+
+<div class="gallery">
+    <div class="gallery-item">
+        <h3>Lamborghini Sián</h3>
+        <img src="lamborgini.webp" alt="Lamborghini Sián">
+    </div>
+    <div class="gallery-item">
+        <h3>Voyah Dream</h3>
+        <img src="voyah.jpg" alt="Voyah Dream">
+    </div>
+    <div class="gallery-item">
+        <h3>Jaguar I-PACE</h3>
+        <img src="Jaguar.jpg" alt="Jaguar I-PACE">
+    </div>
+</div>
+
+</body>
+</html>
